@@ -1,0 +1,74 @@
+#root{
+    padding:3%;
+ }
+ 
+ body{
+ background-color: aliceblue;
+ 
+ }
+ h1{
+     text-align:center;
+     font-family: helvetica, arial, sans-serif;
+ }
+ 
+  @media(max-width: 770px)
+ {
+     h1{
+         font-size: 34px;
+     }
+ } 
+ 
+ h6{
+     text-align:right;
+     font-family:helvetica, arial, sans-serif;
+ }
+ select{
+     font-family:helvetica, arial, sans-serif;
+     border-radius: 10px;
+     border-width:2px;
+     border-color:black;
+ }
+ 
+ button{
+     font-family:helvetica, arial, sans-serif;
+ }
+ 
+ .grid{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     justify-items: center;
+     align-content: center;
+     background-color: rgba(192, 192, 192, 0.39);
+     padding:0.4%;
+     border-radius: 10px;
+     border-style: solid;
+     border-width: 5px;
+ }
+ 
+ label{
+     font-family: helvetica, arial, sans-serif;
+     font-size:small;
+ }
+ 
+ hr{
+     border-style: solid;
+     border-width: 3px;
+ 
+ }
+ 
+ @media(max-width: 400px)
+ {
+ h1{
+     font-size:22px;
+ }
+ 
+ #reGen{
+     font-size: 8px;
+ }
+ #start{
+     font-size: 10px;
+ }
+ select{
+     font-size: 10px;
+ }
+ }
